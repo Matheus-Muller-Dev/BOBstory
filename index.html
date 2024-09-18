@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="services/firebaseConfig.js"></script> <!-- Caminho absoluto para o seu arquivo firebaseconfig.js -->
+    <title>LOGIN AVBB</title>
+</head>
+<body>
+    <main>
+        <form id="loginForm">
+            <div id="image-container">
+            </div>
+            <div class="box">
+                <h1 class="h1-inicio">FAÇA SEU LOGIN</h1>
+                <label for="">
+                    <input type="text" id="login" class="input-des" placeholder="E-mail" autocomplete="off">
+                </label>
+                <br><br>
+                <label for="">
+                    <input type="password" id="senha" class="input-des" placeholder="Senha">
+                </label>
+                <br><br>
+                <button type="submit">ENTRAR</button>
+            </div>
+        </form>
+    </main>
+    <script type="module" src="login.js" defer></script> <!-- Caminho absoluto para o seu arquivo login.js -->
+</body>
+</html>

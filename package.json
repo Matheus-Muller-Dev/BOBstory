@@ -1,0 +1,19 @@
+{
+  "name": "bobstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index-login.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase": "^10.12.3",
+    "vite-plugin-svgr": "^4.2.0"
+  }
+}
